@@ -1,0 +1,18 @@
+
+func moneySeparator(string money){
+
+	remove any character from string money (e.g "." "," "-" etc)
+	count length of string, convert it to float64
+	
+
+	for (startIndex 1; index<=length of string; index++){
+		get char from index[i-1] from string to var strNum
+		parse the char to float64 to a var n
+
+		if (no err){
+			print (n * 10 to the power of (length of string - index))
+		}
+	}
+	
+}
+
